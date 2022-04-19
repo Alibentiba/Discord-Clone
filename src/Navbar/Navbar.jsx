@@ -14,10 +14,12 @@ const Navbar = () => {
                  <p>services</p>
                  <p>Experien</p>
                  <p>portfolio</p>
-                 <button className='button-contact'>Contact</button>
+                 
         </div>
         
-        
+        <div className='Navbar-rigth'>
+        <button className='button-contact'>Contact</button>
+           </div>
 
 
 
