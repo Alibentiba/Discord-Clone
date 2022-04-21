@@ -60,10 +60,11 @@ height: 40%;
 
 
 .About_skills_icon{
-width: 60px;
-height: 50px;
+width: 80px;
+height: 60px;
 color: rgb(6, 1, 34);
 margin-left: 130px;
 margin-top: 20px;
 border-radius: 50%;
+/* background-color: beige; */
 }

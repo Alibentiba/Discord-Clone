@@ -1,7 +1,7 @@
 .Body{
 display: flex;
 flex-direction: row;
-background: linear-gradient(0deg, rgb(255, 254, 213) 0%, rgba(0,0,0,1) 100%);
+background: linear-gradient(7deg, rgba(190,177,161,1) 0%, rgba(3,3,3,0.896796218487395) 88%);
  height: 660px;
 }
 

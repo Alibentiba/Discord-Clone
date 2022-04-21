@@ -10,10 +10,11 @@ const Navbar = () => {
            </div>
 
         <div className='Navbar-center'>
-                 <p>Home</p>
-                 <p>services</p>
-                 <p>Experien</p>
-                 <p>portfolio</p>
+          
+                 <a href="#section" class="btn">About</a>
+                 <a>Services</a>
+                 <a>Experien</a>
+                 <a>portfolio</a>
                  
         </div>
         

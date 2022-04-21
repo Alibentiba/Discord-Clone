@@ -7,7 +7,7 @@ import {SiSelenium,SiRedux} from "react-icons/si";
 
 const About = () => {
   return (
-    <div className='About'>
+    <section className='About' id='section'>
 
     <div className='About_title'>
        <h1>1- About ME</h1>
@@ -46,7 +46,7 @@ const About = () => {
 
 
 
-    </div>
+    </section>
   )
 }
 
