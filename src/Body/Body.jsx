@@ -20,7 +20,7 @@ const Body = () => {
               <FaLinkedin className='icons'/>
               <SiGmail className='icons'/>
             </div>
-        </div>
+           </div>
     
 
 
