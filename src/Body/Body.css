@@ -1,8 +1,8 @@
 .Body{
 display: flex;
 flex-direction: row;
-background: linear-gradient(7deg, rgba(190,177,161,1) 0%, rgba(3,3,3,0.896796218487395) 88%);
- height: 660px;
+/* background: linear-gradient(119deg, rgba(255,246,246,0.7679446778711485) 5%, rgba(237,241,32,0.5214460784313726) 75%); */
+ height: 690px;
 }
 
 .Body-left{
@@ -20,7 +20,7 @@ flex-direction: column;
 
  .body-p1{
     font-size: 72px;
-    background: -webkit-linear-gradient(rgb(192, 184, 184), rgb(255, 153, 0));
+    background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(255, 153, 0));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight:1000;  
@@ -42,7 +42,7 @@ flex-direction: column;
      font-size:20px;
      font-family: Arial, Helvetica, sans-serif, serif;
      margin-bottom: 40px;
-     color: rgb(10, 9, 32);
+     color: rgb(255, 255, 255);
  }
  
 
@@ -52,28 +52,22 @@ flex-direction: column;
     padding-top: 55px;
     /* border: solid blueviolet 2px; */
     margin-top: 20px;
-   
-
 }
 
 
 
 
  .icons {
-    
      width: 30px;
      height: 30px;
-     color: rgb(6, 1, 34);
+     color: rgb(255, 115, 0);
      cursor: pointer;
      margin-left:15px ;
-   
-     
- }
+    }
  .Body-rigth{
      width: 50%;
      padding-top: 5px;
-    /* border: solid blueviolet 2px; */
-    display: flex;
+     display: flex;
     align-items: flex-start;
     justify-content: center;
 }

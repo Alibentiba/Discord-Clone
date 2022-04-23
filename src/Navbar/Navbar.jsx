@@ -11,10 +11,10 @@ const Navbar = () => {
 
         <div className='Navbar-center'>
           
-                 <a href="#section" class="btn">About</a>
-                 <a>Services</a>
+                 <a href="#section" className="btn">About</a>
+                 <a href="#Services">services</a>
                  <a>Experien</a>
-                 <a>portfolio</a>
+                 <a href='#Portfolio'>portfolio</a>
                  
         </div>
         

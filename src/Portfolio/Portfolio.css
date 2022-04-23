@@ -1,0 +1,47 @@
+.Portfolio{
+width: 99%;
+height: 600px;
+border: solid brown 2px;
+}
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 5px;
+  }
+
+  .title{
+
+font-size:20px;
+font-weight: 600;
+color: azure;
+margin-left: 35px;
+  }
+
+
+.Portfolio{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+  .Recent_Projects{
+      font-weight: 900;
+      color: aliceblue;
+      padding-left: 40%;
+      font-size: 46px;
+    
+  }
