@@ -8,6 +8,8 @@ import "swiper/swiper.min.css";
 import "swiper/swiper-bundle.min.css";
 import "swiper/swiper.min.css";
 import './Portfolio.css'
+import b from './b.png'
+import d from './d.jpg'
 SwiperCore.use([EffectCoverflow, Pagination]);
 export const Portfolio = () => {
 return(
@@ -22,20 +24,20 @@ return(
     <SwiperSlide>
       <span className="title">Project title:Ecomerc</span>
      <a href="https://translate.google.com/?sl=la&tl=ar&op=translate">
-       <img src="https://swiperjs.com/demos/images/nature-1.jpg" alt="" />
+       <img src={b} alt="" />
        </a> 
     </SwiperSlide>
     <SwiperSlide>
     <span className="title">Project title:Netflix</span>
-      <img src="https://swiperjs.com/demos/images/nature-2.jpg" alt="" />
+      <img src={d} alt="" />
     </SwiperSlide>
     <SwiperSlide>
     <span className="title">Project title:Total</span>
-      <img src="https://swiperjs.com/demos/images/nature-3.jpg" alt="" />
+      <img src={b} alt="" />
     </SwiperSlide>
     <SwiperSlide>
     <span className="title">Project title:Total</span>
-      <img src="https://swiperjs.com/demos/images/nature-3.jpg" alt="" />
+      <img src={d} alt="" />
     </SwiperSlide>
     
     
