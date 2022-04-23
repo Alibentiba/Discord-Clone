@@ -24,7 +24,7 @@ font-weight: 600;
 cursor: pointer;
 text-decoration: none;
 }
-.Navbar-center p:hover{
+.Navbar-center a:hover{
     color: rgb(255, 136, 0);
 }
 .button-contact{
