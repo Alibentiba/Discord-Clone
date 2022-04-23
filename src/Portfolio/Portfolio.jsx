@@ -8,7 +8,6 @@ import "swiper/swiper.min.css";
 import "swiper/swiper-bundle.min.css";
 import "swiper/swiper.min.css";
 import './Portfolio.css'
-
 SwiperCore.use([EffectCoverflow, Pagination]);
 export const Portfolio = () => {
 return(
