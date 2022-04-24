@@ -3,7 +3,7 @@ import './Services.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 import {SiSelenium,SiRedux} from "react-icons/si";
-import { FaReact,FaCss3,FaHtml5,FaJsSquare,FaPython,FaBootstrap} from "react-icons/fa";
+import { FaReact,FaCss3,FaHtml5,FaJsSquare,FaPython} from "react-icons/fa";
 
 
 import Resume from './Resume.txt'
