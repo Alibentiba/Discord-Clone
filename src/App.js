@@ -3,13 +3,16 @@ import data from './data'
 import Navbar from './Navbar/Navbar'
 import Body from './Body/Body'
 import About from './About/About'
+import Services from './Services/Services'
+
+import { Portfolio } from './Portfolio/Portfolio'
 function App() {
-  const [people, setPeople] = useState(data)
   return (
     <main>
       <Navbar/>
       <Body/>
-      <About/>
+      <Services/>
+      <Portfolio/>
 
     </main>
   )

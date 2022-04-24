@@ -10,7 +10,11 @@ const About = () => {
     <section className='About' id='section'>
 
     <div className='About_title'>
+
        <h1>.About ME</h1>
+
+      
+
     </div>
 
      <div className='About_decription'>

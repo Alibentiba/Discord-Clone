@@ -1,0 +1,5 @@
+API======>Data 
+APP======>aplication ou projet
+
+
+PS C:\Users\pc\Downloads\Amazon_Clone-main>
