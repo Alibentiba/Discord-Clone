@@ -11,7 +11,7 @@ const Navbar = () => {
 
         <div className='Navbar-center'>
           
-                 <a href="#section" class="btn">About</a>
+                 <a href="#section" className="btn">About</a>
                  <a>Services</a>
                  <a>Experien</a>
                  <a>portfolio</a>
