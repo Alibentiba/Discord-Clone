@@ -12,7 +12,6 @@ const Navbar = () => {
         <div className='Navbar-center'>
           
                  <a href="#section" className="btn">About</a>
-                 <a>Services</a>
                  <a href="#Services">services</a>
                  <a>Experien</a>
                  <a href='#Portfolio'>portfolio</a>

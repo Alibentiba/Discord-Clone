@@ -15,7 +15,7 @@ export const Portfolio = () => {
   return (
     <div className="portfolio" id="portfolio">
       {/* heading */}
-      <span>Portfolio</span>
+      <span>Recent Projects</span>
 
       {/* slider */}
       <Swiper
