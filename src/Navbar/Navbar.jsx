@@ -12,11 +12,8 @@ const Navbar = () => {
         <div className='Navbar-center'>
           
                  <a href="#section" className="btn">About</a>
-<<<<<<< HEAD
                  <a>Services</a>
-=======
                  <a href="#Services">services</a>
->>>>>>> 66448d1da0dfca1710ad13d6e54a9e3c2da4a691
                  <a>Experien</a>
                  <a href='#Portfolio'>portfolio</a>
                  
