@@ -1,0 +1,38 @@
+.massage{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.Massage-avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.Massage-info{
+
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+height: 50px;
+padding-left: 20px;
+
+}
+.Massage-info>h4{
+    margin: 0px;
+    color: aliceblue;
+}
+.Massage-info>h4>span{
+    font-weight: 600;
+    color: gray;
+    margin-left: 20px;
+    font-size: x-small;
+}
+.Massage-info>p{
+    font-weight: 500;
+    color: aliceblue;
+    margin-top: 7px;
+}
