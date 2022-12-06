@@ -7,20 +7,20 @@ import "firebase/auth"
 import { getAnalytics } from "firebase/analytics";
 
 
+
 const firebaseConfig = {
-  apiKey: "AIzaSyD1iyn6z0VpyCiq3JOGwuJTm9qj48yRfWg",
-  authDomain: "clone-c058b.firebaseapp.com",
-  projectId: "clone-c058b",
-  storageBucket: "clone-c058b.appspot.com",
-  messagingSenderId: "515285431940",
-  appId: "1:515285431940:web:03652565efde907e13b4d1",
-  measurementId: "G-MDC2D5FP3W"
+  apiKey: "AIzaSyCMsB6GyU-aMVR5yqWD8Rx5wK9D2KnW7jU",
+  authDomain: "discod-8c80d.firebaseapp.com",
+  projectId: "discod-8c80d",
+  storageBucket: "discod-8c80d.appspot.com",
+  messagingSenderId: "482280731464",
+  appId: "1:482280731464:web:37ff0bbb39734322d9f97d",
+  measurementId: "G-R23QRTXYES"
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
-
 
 const db = getFirestore(app);
 const storage = getStorage(app)
