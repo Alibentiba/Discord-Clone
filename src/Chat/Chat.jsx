@@ -6,9 +6,9 @@ import {FaQuestionCircle,FaGift} from "react-icons/fa";
 import {BsFillPlusCircleFill,BsEmojiSmileFill} from "react-icons/bs";
 import {HiGif} from "react-icons/hi2";
 import Massage from '../Messge/Massage';
-import { useDispatch, useSelector } from 'react-redux'
+import {useSelector } from 'react-redux'
 import db from '../firebase'
-import { collection,doc, orderBy,Timestamp} from "firebase/firestore"; 
+import { collection, orderBy,Timestamp} from "firebase/firestore"; 
 import {getDocs ,addDoc} from "firebase/firestore"; 
 
 

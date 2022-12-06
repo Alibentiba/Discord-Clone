@@ -1,20 +1,17 @@
 import React from 'react'
 import './Sidbar.css'
-// import { BiHomeAlt,BiUser,BiBox,BiDollar,BiBarChartAlt } from "react-icons/bi";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import { BiPlus,BiInfoCircle,BiHeadphone} from "react-icons/bi";
 import { FaSignal } from "react-icons/fa";
 import { IoIosCall,IoMdMic,IoMdSettings } from "react-icons/io";
 import Channel from '../Channel/Channel';
 import { useDispatch, useSelector } from 'react-redux'
-import {Logout,getChannels} from '../Redux/Slice'
-import { getAuth, onAuthStateChanged } from "firebase/auth";
+import {Logout} from '../Redux/Slice'
+import { getAuth } from "firebase/auth";
 import db from '../firebase'
 import { collection, getDocs ,addDoc} from "firebase/firestore"; 
 import { useState } from 'react';
 import { useEffect } from 'react';
-import { identityMatrix } from '@syncfusion/ej2/diagrams';
-import { data } from 'autoprefixer';
 
 
 
@@ -34,23 +31,14 @@ const Sidbar = () => {
   
       }
      }   
-    const col= collection(db,'Channels')
+  
     useEffect(()=>{
+      const col= collection(db,'Channels')
       getDocs(col).then((snap)=>{setChannels(snap.docs.map((doc)=>(
      {id:doc.id,
      data:doc.data(),})))})
                        
   },[handelChannel])
-
-  
-
-                  
-
-
-
-  
-
-  //  var ch=useSelector(state=>state.userstore.Channels)
 
   return (
     <div className='Sidbar'>
@@ -97,7 +85,7 @@ const Sidbar = () => {
 
         </div>
         <div className='Sidbar-signl' style={{borderBottom:'none'}}>
-          <img src={user1?.photoURL} style={{color:'green',cursor:'pointer'}} onClick={singout}/>
+          <img src={user1?.photoURL} style={{color:'green',cursor:'pointer'}} alt='img' onClick={singout}/>
           <span style={{color:"gray"}}><h4 className='stream-text' style={{color:'white'}}>{user1?.displayName}</h4>#CNNBKM</span>
           <div className='Sidbar-icons'>
           <IoMdMic/>
