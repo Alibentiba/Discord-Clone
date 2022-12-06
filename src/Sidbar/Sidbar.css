@@ -1,0 +1,75 @@
+.Sidbar{
+    width:20%;
+    background-color:#2f3135;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+    
+    }
+    .Sidbar-top{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        color: rgb(255, 255, 255);
+        font-family: 'Geneva', Courier, monospace;
+        padding: 10px;
+    }
+    .Sidbar-Channels-header{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        color: #a4a4a5;
+        font-family: 'Franklin Gothic Medium', Courier, monospace;
+        font-weight: 600;
+        cursor: pointer;
+        padding: 10px;
+    }
+    .Sidbar-Channels-header span{
+        width:90%;
+    }
+    .Sidbar-Channels-header:hover{
+        color: rgb(255, 255, 255);
+    }
+    .Sidbar-bottom{
+       
+    }
+    .Sidbar-signl{
+        width: 100%;
+        display: flex;
+        
+        align-items: center;
+        justify-content: flex-start;
+        gap: 5%;
+        border-top: solid 1px gainsboro;
+        border-bottom: solid 1px gainsboro;
+        padding: 7px;
+    }
+    .Sidbar-signl h4{
+        width: 35%;
+        font-family: 'Franklin Gothic Medium', Courier, monospace;
+        color: green;
+    
+    
+    }
+    .Sidbar-signl span{
+        color: #919191;
+      
+    }
+    .stream-text{
+        margin-bottom: -1px;
+    }
+    .Sidbar-icons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 62px;
+        color: #919191;
+    }
+    .Sidbar-signl img{
+        width: 37px;
+        height:37px;
+        border-radius: 50%;
+    }

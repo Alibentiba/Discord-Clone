@@ -1,0 +1,18 @@
+.Channel{
+ color: rgb(161, 161, 161);
+ font-weight: 600;
+ padding-left: 10px;
+
+
+}
+.Channel:hover{
+background-color: rgb(117, 117, 117);
+color: rgb(255, 255, 255);
+
+}
+.channel-hash{
+margin-right: 4px;
+font-size: 22px;
+font-weight: 600;
+
+}

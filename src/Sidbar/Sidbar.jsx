@@ -1,5 +1,5 @@
 import React from 'react'
-import './Sidebar.css'
+import './Sidbar.css'
 // import { BiHomeAlt,BiUser,BiBox,BiDollar,BiBarChartAlt } from "react-icons/bi";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import { BiPlus,BiInfoCircle,BiHeadphone} from "react-icons/bi";
@@ -18,7 +18,7 @@ import { data } from 'autoprefixer';
 
 
 
-const Sidebar = () => {
+const Sidbar = () => {
   const [Channels,setChannels]=useState(null)
   const auth = getAuth();
   var user1=useSelector(state=>state.userstore.user)
@@ -121,4 +121,4 @@ const Sidebar = () => {
   )
 }
 
-export default Sidebar
+export default Sidbar
