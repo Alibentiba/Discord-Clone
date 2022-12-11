@@ -68,7 +68,7 @@ const Chat = () => {
                 <MdGroup style={{width:"35px",height:"35px",cursor:'pointer'}}/>
                 <div className='input-header'>
                     <input type="text" placeholder='Search'/>
-                    <MdSearch style={{width:"35px",height:"35px",marginRight:" 9px",cursor:'pointer'}}/>
+                    <MdSearch style={{width:"35px",height:"35px",marginRight:" 9px",cursor:'pointer' ,color:'white'}}/>
 
 
                 </div>
