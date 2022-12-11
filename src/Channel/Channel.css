@@ -1,9 +1,15 @@
 .Channel{
- color: rgb(161, 161, 161);
- font-weight: 600;
- padding-left: 10px;
-
-
+    display: flex;
+    height: 45px;
+    align-items: center;
+    justify-content: flex-start;
+    color: rgb(161, 161, 161);
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .Channel:hover{
 background-color: rgb(117, 117, 117);

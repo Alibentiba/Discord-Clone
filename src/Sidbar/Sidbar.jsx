@@ -45,11 +45,11 @@ const Sidbar = () => {
       
       <div className="Sidbar-Channels">
       <div className='Sidbar-top'>
-        <h4>Descord-Clone</h4>
+        <h3>Descord-Clone</h3>
         <MdKeyboardArrowDown/>
       </div>
         <div className="Sidbar-Channels-header">
-        <MdKeyboardArrowDown/><span>Text Channels</span><BiPlus onClick={handelChannel}/>
+        <MdKeyboardArrowDown style={{width:'30px',height:'30px'}}/><span>Text Channels</span><BiPlus onClick={handelChannel}/>
         </div>
        {Channels?.map(({id,data:{ChannelsName}})=>{
         return( <Channel key={id}

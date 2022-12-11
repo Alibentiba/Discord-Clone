@@ -6,6 +6,9 @@
     flex-direction: column;
     height: 100vh;
     justify-content: space-between;
+    border-radius: 10px;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgb(75, 74, 74) 0%, rgb(0, 0, 0) 100%); 
     
     }
     .Sidbar-top{
@@ -22,9 +25,10 @@
         justify-content: flex-start;
         color: #a4a4a5;
         font-family: 'Franklin Gothic Medium', Courier, monospace;
-        font-weight: 600;
+        font-weight: 500;
         cursor: pointer;
-        padding: 10px;
+        font-size: 22px;
+        /* padding: 10px; */
     }
     .Sidbar-Channels-header span{
         width:90%;
@@ -32,9 +36,7 @@
     .Sidbar-Channels-header:hover{
         color: rgb(255, 255, 255);
     }
-    .Sidbar-bottom{
-       
-    }
+  
     .Sidbar-signl{
         width: 100%;
         display: flex;

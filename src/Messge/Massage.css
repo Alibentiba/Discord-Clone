@@ -3,6 +3,8 @@
     height: 50px;
     align-items: center;
     justify-content: flex-start;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 
 }
 .Massage-avatar{
@@ -29,7 +31,7 @@ padding-left: 20px;
     font-weight: 600;
     color: gray;
     margin-left: 20px;
-    font-size: x-small;
+    font-size: 14px;
 }
 .Massage-info>p{
     font-weight: 500;

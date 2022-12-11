@@ -63,17 +63,17 @@ const Chat = () => {
 
             </div>
             <div className='Chat-header-right'>
-                <IoIosNotifications style={{width:"25px",height:"25px"}}/>
-                <MdLocationOn style={{width:"25px",height:"25px"}}/>
-                <MdGroup style={{width:"25px",height:"25px"}}/>
+                <IoIosNotifications style={{width:"35px",height:"35px",cursor:'pointer'}}/>
+                <MdLocationOn style={{width:"35px",height:"35px",cursor:'pointer'}}/>
+                <MdGroup style={{width:"35px",height:"35px",cursor:'pointer'}}/>
                 <div className='input-header'>
                     <input type="text" placeholder='Search'/>
-                    <MdSearch style={{width:"30px",height:"30px",marginRight:" 9px"}}/>
+                    <MdSearch style={{width:"35px",height:"35px",marginRight:" 9px",cursor:'pointer'}}/>
 
 
                 </div>
-                <IoMdSend style={{width:"25px",height:"25px"}}/>
-                <FaQuestionCircle style={{width:"25px",height:"25px"}}/>
+                <IoMdSend style={{width:"35px",height:"35px",cursor:'pointer'}}/>
+                <FaQuestionCircle style={{width:"35px",height:"35px",cursor:'pointer'}}/>
 
 
             </div>
